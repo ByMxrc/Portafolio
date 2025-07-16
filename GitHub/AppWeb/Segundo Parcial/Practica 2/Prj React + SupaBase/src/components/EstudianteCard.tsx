@@ -13,7 +13,7 @@ export default function EstudianteCard({
         <p className="card-text">Correo: {estudiante.correo}</p>
         <p className="card-text">Teléfono: {estudiante.telefono}</p>
         <p className="card-text">
-          Fecha de Nacimiento: {new Date(estudiante.fechaNacimiento).toLocaleDateString()}
+          Fecha de Nacimiento: {new Date(estudiante.fechanacimiento).toLocaleDateString()}
         </p>
       </div>
     </div>

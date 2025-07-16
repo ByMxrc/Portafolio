@@ -5,7 +5,6 @@ export interface Estudiantes {
     edad: number;
     correo: string;
     telefono: string;
-    fechanacimiento: string;
 }
 
 export type CreateEstudiante = Omit<Estudiantes, 'id'>;

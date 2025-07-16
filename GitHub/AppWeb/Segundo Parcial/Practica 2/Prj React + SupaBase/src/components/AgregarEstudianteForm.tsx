@@ -8,7 +8,7 @@ export default function AgregarEstudianteForm({ onAgregar }: { onAgregar: (nuevo
     edad: 0,
     correo: "",
     telefono: "",
-    fechaNacimiento: "",
+    fechanacimiento: "",
   });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -28,7 +28,7 @@ export default function AgregarEstudianteForm({ onAgregar }: { onAgregar: (nuevo
       edad: 0,
       correo: "",
       telefono: "",
-      fechaNacimiento: "",
+      fechanacimiento: "",
     });
   };
 
@@ -89,9 +89,9 @@ export default function AgregarEstudianteForm({ onAgregar }: { onAgregar: (nuevo
         <input
           type="date"
           className="form-control"
-          name="fechaNacimiento"
+          name="fechanacimiento"
           placeholder="Fecha de Nacimiento"
-          value={nuevoEstudiante.fechaNacimiento}
+          value={nuevoEstudiante.fechanacimiento}
           onChange={handleChange}
         />
       </div>
