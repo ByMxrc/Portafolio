@@ -1,22 +1,16 @@
 <script setup lang="ts">
-// Update the import path if the file is located elsewhere, for example:
-// Update the import path if the file is located elsewhere, for example:
-// import EstudianteView from '../views/EstudianteView.vue'
 import EstudianteView from './views/EstudianteView.vue'
 </script>
 
 <template>
   <div id="app">
-    <!-- 
-      COMPONENTE PRINCIPAL DE LA APLICACIÓN
-      TodoView es nuestro componente contenedor que maneja toda la lógica
-    -->
+
     <EstudianteView />
   </div>
 </template>
 
 <style>
-/* Reset y estilos globales */
+
 * {
   margin: 0;
   padding: 0;
@@ -43,14 +37,14 @@ body {
   padding-top: 2rem;
 }
 
-/* Estilos globales para mejorar la accesibilidad */
+
 button:focus,
 input:focus {
   outline: 2px solid #3498db;
   outline-offset: 2px;
 }
 
-/* Transiciones suaves para todos los elementos interactivos */
+
 button,
 input,
 .task-item {
